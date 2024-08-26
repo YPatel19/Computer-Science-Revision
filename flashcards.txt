@@ -1,0 +1,50 @@
+PC*The program counter contains the address of the next instruction
+CIR*Current Instruction Register: stores the address of the next instruction currently being executed and decoded
+MAR*Memory Address Register holds relevant memory address (to read from or write to)
+MDR*Memory Data Register, stores data being transferred to and from memory, acts as a buffer
+ALU*Arithmetic and Logic Unit, does all mathematical calculations and makes all logical decisions
+Accumulator*A storage register in the ALU that holds data temporarily while the data is processed and before it is transferred to memory
+GPU*Graphics Processing Unit - dedicated graphics processor on a graphics card, used to render images stored in the RAM of the graphics card
+Multi-core CPU*A CPU with more than one core on the same chip - makes use of parallel processing for optimum efficiency
+RAM*Random Access Memory - stores programs and data currently in use. Volatile
+ROM*Read Only Memory - holds information which must be permanently in memory eg. BIOS
+What are the functions of an operating system?*- Providing a user interface, Memory management, Interrupt service routines, Processor scheduling, Backing store management, Input and output management
+What is virtual memory?*A technique that uses a portion of the computer's hard disk as an extension of RAM - swaps files in and out of RAM by a process called disk thrashing
+What is a multitasking operating system?*An OS which allows each user to run more than one job at a time
+What is an embedded operating system?*An OS on a chip instead of on a hard drive, designed to do simple things adapted for specific hardware/functions
+What is a real-time operating system?*Processes data as it comes in - in real time
+BIOS*Basic input/output system contains programs to load the hardware, stored in ROM
+Device drivers*Utility software used by the operating system to communicate with peripheral devices
+Interpreter*Converts a program written in a higher level language into a lower level language and executes it, one line at a time
+Compiler*Translates a high-level source program into machine instructions readable by a processor and saves it to disk. The program executes when run
+Assembler*Translates an assembly-language program into machine code
+ADD*Add the contents of the memory address to the accumulator
+SUB*Subtract the contents of the memory address from the accumulator
+STAStore the accumulator value in the memory address given
+LDA*Load the contents of the given memory address into the accumulator
+BRA*Branch- use the address given as the address of the next instruction
+BRZ*Branch to the given address if accumulator is zero
+BRP*Branch to the given address if the accumulator value is positive (or zero)
+INP*Input into the accumulator
+OUT*Output contents of the accumulator
+HLT*Stops the execution of the program
+Lossy Compression*data compression techniques in which some amount of data is lost - redundant information is eliminated
+Lossless Compression*a data compression algorithm that allows the original data to be perfectly reconstructed from the compressed data, no data is lost, file size is still made smaller
+Primary Key*A field (or group of fields) that uniquely identifies a given entity in a table
+Secondary Key*A field that has some identifying information, but typically does not uniquely identify a record with complete accuracy
+Foreign Key*A primary key of one table that appears as an attribute in another table and acts to provide a logical relationship between the two tables
+Composite Key*Two or more fields that collectively define the primary key by unique combinations of their values
+First Normal Form (1NF)*A table that has a primary key and in which there are no repeating attributes or groups of attributes
+Second Normal Form (2NF)*A table in first normal form in which there are no partial dependencies (only relevant if the primary key is a composite primary key)
+Third Normal Form (3NF)*A table in 2NF where all attributes are dependent on the key, the whole key and nothing but the key
+SELECT*SELECT field(s), FROM table(s), WHERE criteria, ORDER BY ascending/descending
+CREATE TABLE*CREATE TABLE name (field datatype)
+ACID*Atomicity, Consistency, Isolation, Durability
+Atomicity*Requires that a transaction be processed completely or not at all
+Name the three programming constructs*Sequence, branching and iteration
+Which two categories of loop is iteration split up into?*Count-controlled and Condition-controlled
+Give two advantages of using local variables over global variables*Less memory is used, Self-contained so unaffected by code outside of the subroutine, Take precedence over global variables with the same name
+What is the difference between procedures and functions?*Functions must always return a single value while a procedure does not always have to return a value
+What does IDE stand for?*Integrated Development Environment
+Define an algorithm*A set of instructions used to solve aproblem
+What is the purpose of testing?*To identify flaws in the software
